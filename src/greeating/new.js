@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../comp/header";
 
-const Greating = () => {
+const New = () => {
   return (
     <>
-      <Header />
+    <Header />
         {/* start landing */}
         <div className="landing">
           <div className="intro-text">
-            <h1>Greating page</h1>
+            <h1>New page</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
               excepturi in explicabo saepe temporibus corrupti optio omnis
@@ -203,4 +203,4 @@ const Greating = () => {
   );
 };
 
-export default Greating;
+export default New;
