@@ -5,7 +5,7 @@ import Header from "./comp/header";
 function App() {
   return (
     <>
-    <Header />
+      <Header />
       {/* start landing */}
       <div className="landing">
         <div className="intro-text">
