@@ -9,7 +9,7 @@ import New from "./greeating/new";
 import Greating from "./greeating/greating";
 import App from "./App";
 // import Main from "./comp/Main";
-import "./comp/heading.css"
+// import Footer from "./comp/Footer";
 
 const router = createBrowserRouter([
   {

@@ -53,7 +53,7 @@ body {
  }
 /* end glopal rules */
 /* start componant */
-.special {
+/* .special {
   color: var(--main-color);
   font-size: 100px;
   font-weight: 800;
@@ -74,10 +74,10 @@ body {
   .special + p  {
       margin-top: -15px;
   }
-}
+} */
 /* end componant */
 /* start header */
-.header {
+/* .header {
   padding: 20px;
 }
 .header .container {
@@ -168,10 +168,10 @@ body {
   border-bottom: 4px solid red;
   border-radius: 4px;
 
-}
+} */
 /* end header */
 /* start landing  */
-.landing {
+/* .landing {
   background-size: cover;
   height: calc(100vh - 68px);
   position: relative;
@@ -193,10 +193,10 @@ body {
 .landing .intro-text p {
   font-size: 20px;
   line-height: 1.8;
-}
+} */
 /* start landing  */
 /* start fetsures */
-.fetsures {
+/* .fetsures {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #f6f6f6f6;
@@ -222,10 +222,10 @@ body {
 .fetsures .feat p {
   line-height: 1.8;
   font-size: 19px;
-} 
+}  */
 /* end fetsures */
 /* start serveces */
-.serveces {
+/* .serveces {
   padding-top: var(--sec-padding);
   padding-bottom: var(--sec-padding);
   
@@ -266,10 +266,10 @@ body {
       text-align: center;
   }
 
-}
+} */
 /* start serveces */
 /* start portofolio */
-.portofolio {
+/* .portofolio {
   padding-top: 60px;
   padding-bottom: 60px;
   
@@ -309,10 +309,10 @@ body {
   .portofolio .portofolio-content {
       text-align: center;
   }  
-}
+} */
 /* end portofolio */
 /*  start about  */
-.about {
+/* .about {
   padding-top: var(--sec-padding);
   padding-bottom: calc(var(--sec-padding) + 60px);
 }
@@ -350,10 +350,10 @@ body {
   width: 50%;
   display: inline-block;
 
-}
+} */
 /*  end about  */
 /* start contact */
-.contact {
+/* .contact {
   padding-top: var(--sec-padding);
   padding-bottom: var(--sec-padding);
 
@@ -394,10 +394,10 @@ body {
   .contact .info .link {
       font-size: 15px;
   }
-}
+} */
 /* end contact */
 /* start footer */
-.footer {
+/* .footer {
   color:white;
   background: rgb(2, 66, 66);
   padding: 30px 10px;
@@ -410,5 +410,5 @@ body {
   font-weight: bold;
   color: var(--main-color);
   
-}
+} */
 /* end footer */

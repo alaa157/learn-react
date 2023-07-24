@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../comp/header";
-import "../comp/footer.css"
+import "../comp/landing.css"
+import Footer from "../comp/Footer";
 
 const Greating = () => {
   return (
@@ -195,11 +196,7 @@ const Greating = () => {
           </div>
         </div>
         {/* end contact */}
-        {/* start footer */}
-        <div className="footer">
-          © 2023 <span>lean</span> all right resrved
-        </div>
-        {/* end footer */}
+        <Footer />
     </>
   );
 };
