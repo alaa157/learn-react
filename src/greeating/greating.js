@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../comp/header";
+import "../comp/footer.css"
 
 const Greating = () => {
   return (

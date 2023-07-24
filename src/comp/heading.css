@@ -1,0 +1,94 @@
+/* start header */
+/* .header {
+    padding: 20px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 70px;
+}
+.header .links {
+    position: relative;
+}
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
+.header .links:hover .icon span:first-child {
+    width: 60%;
+}
+.header .links:hover .icon span:last-child {
+    width: 60%;
+}
+.header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.header .links .icon span {
+    background-color: rgb(15, 2, 22);
+    width: 30px;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+    border-radius: 1px;
+    height: 2px;
+}
+.header .links .icon span:first-child {
+    width: 100%;
+    transition: .5s;
+}
+.header .links .icon span:nth-child(2) {
+    width: 60%;
+    transition: .5s;
+}
+.header .links .icon span:last-child {
+    width: 100%;
+    transition: .5s;
+}
+.header .links ul {
+    margin: 0px; 
+    padding: 0px;
+    background-color: #807a7a;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    min-width: 200px;
+    top: calc(100% + 15px);
+    display: none;
+    z-index: 1;
+}
+.header .links:hover ul {
+    display: block;
+    transition: .2s;
+}
+.header .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color:transparent transparent transparent transparent;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    
+}
+.header .links ul a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+
+}
+.header .links ul a:hover {
+    padding-left: 25px;
+
+}
+.header .links ul li:not(:last-child) a {
+    border-bottom: 4px solid red;
+    border-radius: 4px;
+
+} */
+/* end header */

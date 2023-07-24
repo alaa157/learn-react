@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../comp/header";
 import Main from "../comp/Main";
+import "../comp/heading.css"
 
 const New = () => {
   return (

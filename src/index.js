@@ -8,7 +8,8 @@ import Home from "./greeating/home";
 import New from "./greeating/new";
 import Greating from "./greeating/greating";
 import App from "./App";
-import Main from "./comp/Main";
+// import Main from "./comp/Main";
+import "./comp/heading.css"
 
 const router = createBrowserRouter([
   {
