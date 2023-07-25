@@ -1,15 +1,15 @@
-// import logo from './logo.svg';
 import "./App.css";
 import Header from "./comp/header";
-// import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
-      {/* <Helmet>
-        <title>app page</title>
-        <meta name="description" content="app page" />
-      </Helmet> */}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>greating page</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Header />
       {/* start landing */}
       <div className="landing">
@@ -122,7 +122,6 @@ function App() {
           <p>if you do it right, it will last forever</p>
           <div className="portofolio-content">
             <div className="card">
-              <img src="../project one/img/p1.jpg" />
               <div className="info">
                 <h3>project here</h3>
                 <p>
@@ -132,7 +131,6 @@ function App() {
               </div>
             </div>
             <div className="card">
-              <img src="../project one/img/p2.jpg" />
               <div className="info">
                 <h3>project here</h3>
                 <p>
@@ -142,7 +140,6 @@ function App() {
               </div>
             </div>
             <div className="card">
-              <img src="../project one/img/p3.jpg" />
               <div className="info">
                 <h3>project here</h3>
                 <p>

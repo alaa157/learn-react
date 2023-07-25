@@ -2,18 +2,16 @@ import React from "react";
 import Header from "../comp/header";
 import "../comp/landing.css";
 import Footer from "../comp/Footer";
-// import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 const Greating = () => {
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
         <title>greating page</title>
-        <meta
-          name="description"
-          content="Web site created using create-react-app"
-        />
-      </Helmet> */}
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Header />
       {/* start landing */}
       <div className="landing">

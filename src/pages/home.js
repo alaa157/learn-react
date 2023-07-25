@@ -2,12 +2,18 @@ import React from "react";
 import Header from "../comp/header";
 import Main from "../comp/Main";
 import Footer from "../comp/Footer";
+import { Helmet } from "react-helmet";
 
-const New = () => {
+const Home = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home page</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Header />
-      <Main aaa="fuck you and your mother" />
+      <Main aaa="naame page" />
       {/* start fetsures */}
       <div className="fetsures">
         <div className="container">
@@ -190,4 +196,4 @@ const New = () => {
   );
 };
 
-export default New;
+export default Home;
