@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from './App';
+import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import reportWebVitals from './reportWebVitals';
 import Home from "./greeating/home";
 import New from "./greeating/new";
 import Greating from "./greeating/greating";
-import App from "./App";
+import Application from "./greeating/Application";
+import { HelmetProvider } from "react-helmet-async";
+
 // import Main from "./comp/Main";
 // import Footer from "./comp/Footer";
 
@@ -29,8 +31,8 @@ const router = createBrowserRouter([
     errorElement: <h1>SORRY ERROR 404...............................</h1>,
   },
   {
-    path: "/app",
-    element: <App />,
+    path: "/Application",
+    element: <Application />,
     errorElement: <h1>SORRY ERROR 404...............................</h1>,
   },
   {
@@ -44,6 +46,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
 );
 

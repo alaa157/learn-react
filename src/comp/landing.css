@@ -3,6 +3,7 @@
     background-size: cover;
     height: calc(100vh - 68px);
     position: relative;
+    background-color: teal;
 }
 .landing .intro-text {
     position: absolute;
@@ -15,7 +16,7 @@
     margin: 0px;
     font-size: 50px;
     font-weight: bold;
-    color: var(--main-color);
+    color: darkgoldenrod;
 
 }
 .landing .intro-text p {
